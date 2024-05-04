@@ -1,2 +1,0 @@
-
-        if supporting_evidence:
