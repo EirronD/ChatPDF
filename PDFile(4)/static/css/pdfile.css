@@ -1,0 +1,109 @@
+#response {
+    overflow-y: scroll;
+    max-height: calc(100vh - 200px); /* Adjust height as needed */
+}
+
+.message-container {
+    margin-bottom: 20px;
+    clear: both;
+    overflow: auto;
+}
+
+.user-message {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    float: right; /* User message on the right */
+}
+
+.bot-message {
+    background-color: #bee5eb;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    float: left;
+    clear: both;
+}
+
+#user_input {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 600px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.user-message {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    float: right;
+    clear: both;
+}
+
+#user_query {
+    width: calc(100% - 90px); /* Adjust as needed */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#send_button {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d93025;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send_button:hover {
+    background-color: #45a049;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 50px; /* Adjust the width of the logo as needed */
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-left: 10px;
+}
+
+h1 span {
+    font-weight: bold; /* Optional: make the "PDF" part bold */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
